@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tridactyl - a vim-like Firefox WebExtension</title>
+    <link>https://tridactyl.xyz/</link>
+    <description>Recent content on Tridactyl - a vim-like Firefox WebExtension</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 27 Jan 2020 16:04:01 +0000</lastBuildDate>
+    
+	<atom:link href="https://tridactyl.xyz/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What is Tridactyl?</title>
+      <link>https://tridactyl.xyz/about/</link>
+      <pubDate>Mon, 27 Jan 2020 16:04:01 +0000</pubDate>
+      
+      <guid>https://tridactyl.xyz/about/</guid>
+      <description>Tridactyl is an extension for Firefox which replaces its default control mechanism with one modelled on the one true editor, Vim.
+Much more information is available on our GitHub page and on the Firefox Add-ons page.</description>
+    </item>
+    
+    <item>
+      <title>Testimonials</title>
+      <link>https://tridactyl.xyz/testimonials/</link>
+      <pubDate>Mon, 27 Jan 2020 15:35:45 +0000</pubDate>
+      
+      <guid>https://tridactyl.xyz/testimonials/</guid>
+      <description>Here are a few of our favourite testimonials:
+ Jeff King, co-author of git, June 2018
+ I&#39;m mostly just a user of tridactyl
+  burntsushi, author of ripgrep (generally embarrassingly prolific in the Rust and Go ecosystems), October 2019:
+ If Mozilla prevents me from using tridactyl, then it’s likely that I move back to Chrome.
+  The following are all taken from the Mozilla reviews page.</description>
+    </item>
+    
+    <item>
+      <title>Talk to us</title>
+      <link>https://tridactyl.xyz/chat/</link>
+      <pubDate>Mon, 27 Jan 2020 15:26:17 +0000</pubDate>
+      
+      <guid>https://tridactyl.xyz/chat/</guid>
+      <description>We&#39;re friendly. You can talk to us via Matrix.org, #tridactyl on freenode and gitter.
+If none of that suits you, filing an issue is a good way of getting our attention.
+A couple of the developers can also be contacted via Keybase: bovine3dom and cmcaine, which is the preferred contact method for security issues.</description>
+    </item>
+    
+  </channel>
+</rss>
