@@ -64,10 +64,44 @@ Port Tridactyl to other browsers Google Chrome has many more users than Firefox.
     <div class="wrap">
         <div class="section" id="title">Google Summer of Code 2020 ideas page</div>
 
-        <div class="section" id="content"><p>Tridactyl is a big project with lots of interesting areas where students could make a contribution. This page lists some of the ideas the maintainers have had. Most of them are projects we ourselves would like to undertake but have not had the time to dedicate to them.</p>
-<h1 id="challenging">Challenging</h1>
+        <div class="section" id="content">
+            
+                
+                <h2> Table of contents </h2>
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#challenging">Challenging</a>
+      <ul>
+        <li><a href="#port-tridactyl-to-other-browsers">Port Tridactyl to other browsers</a></li>
+        <li><a href="#write-a-keyboard-api-for-firefox">Write a &ldquo;Keyboard API&rdquo; for Firefox</a></li>
+        <li><a href="#integrate-a-new-parser-into-tridactyl">Integrate a new parser into Tridactyl</a></li>
+      </ul>
+    </li>
+    <li><a href="#minor">Minor</a>
+      <ul>
+        <li><a href="#use-treestyletabs-api">Use TreeStyleTab&rsquo;s API</a></li>
+        <li><a href="#lazy-iframe-injection">Lazy iframe injection</a></li>
+      </ul>
+    </li>
+    <li><a href="#just-for-fun">Just for fun</a>
+      <ul>
+        <li><a href="#gamepadactyl">Gamepadactyl</a></li>
+      </ul>
+    </li>
+    <li><a href="#moonshots">Moonshots</a>
+      <ul>
+        <li><a href="#port-geckoview-to-x86_64">Port GeckoView to x86_64</a></li>
+      </ul>
+    </li>
+    <li><a href="#your-own-idea">Your own idea!</a></li>
+  </ul>
+</nav>
+                <hr>
+            
+            <p>Tridactyl is a big project with lots of interesting areas where students could make a contribution. This page lists some of the ideas the maintainers have had. Most of them are projects we ourselves would like to undertake but have not had the time to dedicate to them.</p>
+<h2 id="challenging">Challenging</h2>
 <p>The following few projects would be quite challenging (and proportionately rewarding).</p>
-<h2 id="port-tridactyl-to-other-browsers">Port Tridactyl to other browsers</h2>
+<h3 id="port-tridactyl-to-other-browsers">Port Tridactyl to other browsers</h3>
 <p>Google Chrome has many more users than Firefox. We could get Tridactyl into the hands of many more people if we ported it to Chrome. Many browsers use the same (or similar) WebExtension API as Firefox and can be supported using <a href="https://github.com/mozilla/webextension-polyfill">webextension-polyfill</a>.</p>
 <p>The challenges would be:</p>
 <ul>
@@ -102,7 +136,7 @@ Port Tridactyl to other browsers Google Chrome has many more users than Firefox.
 </ul>
 <p>We briefly explored this in the past - this <a href="https://github.com/tridactyl/tridactyl/pull/1683">pull request</a> could be a good place for interested students to start</p>
 <p>Potential mentors: glacambre, saulrh, bovine3dom</p>
-<h2 id="write-a-keyboard-api-for-firefox">Write a &ldquo;Keyboard API&rdquo; for Firefox</h2>
+<h3 id="write-a-keyboard-api-for-firefox">Write a &ldquo;Keyboard API&rdquo; for Firefox</h3>
 <p>Tridactyl is a keyboard-driven interface for Firefox. The most common complaint amongst our users is that Tridactyl cannot accept commands while web pages are loading, while the Firefox UI is focused, or while a &ldquo;privileged&rdquo; page such as &ldquo;about:preferences&rdquo; is being used.</p>
 <p>A simple extension to the WebExtension API would allow Tridactyl to listen for key-events in these scenarios. <a href="https://github.com/tridactyl/keyboard-api">Work was started</a> on such an API a few years ago. Mozilla, in principle, accepted that such an API could be merged into Firefox.</p>
 <p>Such an API would be useful for all extensions like Tridactyl.</p>
@@ -140,7 +174,7 @@ Port Tridactyl to other browsers Google Chrome has many more users than Firefox.
 </li>
 </ul>
 <p>Potential mentors: saulrh, glacambre, cmcaine, bovine3dom</p>
-<h2 id="integrate-a-new-parser-into-tridactyl">Integrate a new parser into Tridactyl</h2>
+<h3 id="integrate-a-new-parser-into-tridactyl">Integrate a new parser into Tridactyl</h3>
 <p>Tridactyl has its own rudimentary vim-style scripting language. The current design was not designed; it emerged as new features were added. It is therefore <em>bad</em>.</p>
 <p>ELLIOTTCABLE has been working on <a href="https://github.com/ELLIOTTCABLE/excmd.js">a real parser</a> on and off for about 18 months. It is now nearly ready to be integrated into Tridactyl. Your task would be to integrate it with his help and fix any issues that emerged.</p>
 <p>Challenges:</p>
@@ -168,8 +202,8 @@ Port Tridactyl to other browsers Google Chrome has many more users than Firefox.
 <p>Some knowledge of parsers</p>
 </li>
 </ul>
-<h1 id="minor">Minor</h1>
-<h2 id="use-treestyletabs-api">Use TreeStyleTab&rsquo;s API</h2>
+<h2 id="minor">Minor</h2>
+<h3 id="use-treestyletabs-api">Use TreeStyleTab&rsquo;s API</h3>
 <p>Another highly requested feature is to interoperate with TreeStyleTab. This would be a shorter task than the others. <a href="https://github.com/tridactyl/tridactyl/pull/1646">There is already a PR</a> that goes some of the way to providing this. The main remaining work is to determine which sorts of features users would like and improve error handling.</p>
 <p>Rewards:</p>
 <ul>
@@ -180,8 +214,38 @@ Port Tridactyl to other browsers Google Chrome has many more users than Firefox.
 <li>Some experience with using TreeStyleTabs or a similar extension</li>
 </ul>
 <p>Potential mentors: saulrh, bovine3dom</p>
-<h1 id="just-for-fun">Just for fun</h1>
-<h2 id="gamepadactyl">Gamepadactyl</h2>
+<h3 id="lazy-iframe-injection">Lazy iframe injection</h3>
+<p>The way we inject our iframe which contains our command line and most of our interface currently <a href="https://github.com/tridactyl/tridactyl/issues/639">breaks quite a few websites</a>. We should instead insert it only when it is required. We attempted this <a href="https://github.com/tridactyl/tridactyl/pull/1331">about a year ago</a> but ran into an issue where the command had to be executed twice to work.</p>
+<p>Challenges:</p>
+<ul>
+<li>
+<p>There is a race condition somewhere (which is always lost) which prevents the iframe from being displayed until it is asked for a second time</p>
+</li>
+<li>
+<p>Tridactyl is a large project; we don&rsquo;t know how many (if any) parts of it rely on the iframe being present on each page</p>
+</li>
+</ul>
+<p>Rewards:</p>
+<ul>
+<li>
+<p>Fix the issue that prevents Tridactyl from working on quite a few pages</p>
+</li>
+<li>
+<p>Experience with debugging race conditions in real-world asynchronous code</p>
+</li>
+</ul>
+<p>Prerequisites:</p>
+<ul>
+<li>
+<p>Some experience with a programming language</p>
+</li>
+<li>
+<p>Some experience with asynchronous code</p>
+</li>
+</ul>
+<p>Potential mentors: bovine3dom, glacambre, saulrh</p>
+<h2 id="just-for-fun">Just for fun</h2>
+<h3 id="gamepadactyl">Gamepadactyl</h3>
 <p>We have <a href="https://github.com/tridactyl/tridactyl/pull/1814">an open pull request</a> that adds limited gamepad support to Tridactyl. After getting detection, hinting and text input to work well (for example, see Steam&rsquo;s Xbox 360 flower keyboard) with a decent theme it could turn Tridactyl into a good way of browsing the net on a big screen.</p>
 <p>Challenges:</p>
 <ul>
@@ -201,9 +265,9 @@ Port Tridactyl to other browsers Google Chrome has many more users than Firefox.
 </li>
 </ul>
 <p>Potential mentors: bovine3dom, glacambre</p>
-<h1 id="moonshots">Moonshots</h1>
+<h2 id="moonshots">Moonshots</h2>
 <p>The following project has a slim chance of success.</p>
-<h2 id="port-geckoview-to-x86_64">Port GeckoView to x86_64</h2>
+<h3 id="port-geckoview-to-x86_64">Port GeckoView to x86_64</h3>
 <p>GeckoView is Mozilla&rsquo;s answer to Chrome&rsquo;s WebView - it is a lightweight web browser that is intended to be embedded in Android applications. Given enough willpower, it could be ported to desktop computers with bindings written in a popular language (e.g. Python, or, as the maintainers would like, Julia). It could then serve as an alternative to Electron and Tridactyl could be ported to it. GeckoView itself already supports a subset of the WebExtension API so it could be somewhat straightforward.</p>
 <p>GeckoView itself is under active development and so is something of a moving target.</p>
 <p>The mentors are somewhat reluctant to mentor this project; a student would need to be very persuasive to be accepted.</p>
@@ -233,7 +297,10 @@ Port Tridactyl to other browsers Google Chrome has many more users than Firefox.
 </li>
 </ul>
 <p>Potential mentors: saulrh, bovine3dom, cmcaine</p>
-</div>
+<h2 id="your-own-idea">Your own idea!</h2>
+<p>We&rsquo;d be delighted to hear from students who have an idea completely of their own. Be sure to <a href="/chat/">contact us first</a> to get a feel for how achievable we think your idea is. You might also wish to look at the <a href="https://github.com/tridactyl/tridactyl/issues/2107">GitHub issue where we came up with the ideas that made this page</a> or any of our <a href="https://github.com/tridactyl/tridactyl/issues/">GitHub issues</a>.</p>
+
+        </div>
 
         
         <div class="section bottom-menu">
