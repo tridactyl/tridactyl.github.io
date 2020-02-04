@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Newsletters on Tridactyl - a vim-like Firefox WebExtension</title>
+    <link>https://tridactyl.xyz/newsletters/</link>
+    <description>Recent content in Newsletters on Tridactyl - a vim-like Firefox WebExtension</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 16 Jan 2020 11:24:21 +0000</lastBuildDate>
+    
+	<atom:link href="https://tridactyl.xyz/newsletters/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Winter 2020</title>
+      <link>https://tridactyl.xyz/newsletters/02-winter-2020/</link>
+      <pubDate>Thu, 16 Jan 2020 11:24:21 +0000</pubDate>
+      
+      <guid>https://tridactyl.xyz/newsletters/02-winter-2020/</guid>
+      <description>Hello,
+Welcome to the second quarterly Tridactyl newsletter.
+Since the last newsletter, we resolved our dispute with the Mozilla add-on reviewers and have been relisted on the AMO. If you like graphs, you can clearly see our time in the wilderness where the AMO did not collect statistics for us here: https://addons.mozilla.org/en-US/firefox/addon/tridactyl-vim/statistics/?last=365
+We&amp;rsquo;ve recently added quite a few long-demanded features to the Tridactyl beta, which we&amp;rsquo;ll enumerate in the following paragraphs.</description>
+    </item>
+    
+    <item>
+      <title>Autumn 2019</title>
+      <link>https://tridactyl.xyz/newsletters/01-autumn-2019/</link>
+      <pubDate>Thu, 17 Oct 2019 11:32:27 +0100</pubDate>
+      
+      <guid>https://tridactyl.xyz/newsletters/01-autumn-2019/</guid>
+      <description>Hi!
+It&amp;rsquo;s been an eventful few months for Tridactyl. We were delisted from the AMO and have been slowly trying to get listed again. We&amp;rsquo;re currently waiting to hear back from a reviewer on a query of ours before we submit what we will hope be our final revision which will be accepted. To have a hope of being relisted we have had to do some stuff we didn&amp;rsquo;t want to do, namely editing user.</description>
+    </item>
+    
+  </channel>
+</rss>
