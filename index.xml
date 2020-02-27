@@ -17,9 +17,8 @@
       <pubDate>Thu, 30 Jan 2020 14:56:08 +0000</pubDate>
       
       <guid>https://tridactyl.xyz/ideas/</guid>
-      <description>Tridactyl is a big project with lots of interesting areas where students could make a contribution. This page lists some of the ideas the maintainers have had. Most of them are projects we ourselves would like to undertake but have not had the time to dedicate to them.
-General prerequisites for all applicants:
- Some experience of a programming language  Tridactyl is predominantly written in TypeScript which is &amp;ldquo;JavaScript with extra bits&amp;rdquo;.</description>
+      <description>NB: Unfortunately, Google could not find room for Tridactyl in GSoC 2020. We would still be happy for anyone to take up any of the projects below, with the caveat that we wouldn&amp;rsquo;t be able to pay them. An invitation (and subsidised travel) to the next Tridactyl retreat would probably be the best we could do.
+Tridactyl is a big project with lots of interesting areas where students could make a contribution.</description>
     </item>
     
     <item>
@@ -40,7 +39,7 @@ Much more information is available on our GitHub page and on the Firefox Add-ons
       <guid>https://tridactyl.xyz/testimonials/</guid>
       <description>Here are a few of our favourite testimonials:
  Jeff King, co-author of git, June 2018
- I&#39;m mostly just a user of tridactyl
+ I&amp;rsquo;m mostly just a user of tridactyl
   burntsushi, author of ripgrep (generally embarrassingly prolific in the Rust and Go ecosystems), October 2019:
  If Mozilla prevents me from using tridactyl, then it’s likely that I move back to Chrome.
   The following are all taken from the Mozilla reviews page.</description>
@@ -52,7 +51,7 @@ Much more information is available on our GitHub page and on the Firefox Add-ons
       <pubDate>Mon, 27 Jan 2020 15:26:17 +0000</pubDate>
       
       <guid>https://tridactyl.xyz/chat/</guid>
-      <description>We&#39;re friendly. You can talk to us via Matrix.org, #tridactyl on freenode and gitter.
+      <description>We&amp;rsquo;re friendly. You can talk to us via Matrix.org, #tridactyl on freenode and gitter.
 If none of that suits you, filing an issue is a good way of getting our attention.
 A couple of the developers can also be contacted via Keybase: bovine3dom and cmcaine, which is the preferred contact method for security issues.</description>
     </item>
@@ -66,7 +65,7 @@ A couple of the developers can also be contacted via Keybase: bovine3dom and cmc
       <description>Hello,
 Welcome to the second quarterly Tridactyl newsletter.
 Since the last newsletter, we resolved our dispute with the Mozilla add-on reviewers and have been relisted on the AMO. If you like graphs, you can clearly see our time in the wilderness where the AMO did not collect statistics for us here: https://addons.mozilla.org/en-US/firefox/addon/tridactyl-vim/statistics/?last=365
-We&#39;ve recently added quite a few long-demanded features to the Tridactyl beta, which we&#39;ll enumerate in the following paragraphs.</description>
+We&amp;rsquo;ve recently added quite a few long-demanded features to the Tridactyl beta, which we&amp;rsquo;ll enumerate in the following paragraphs.</description>
     </item>
     
     <item>
@@ -76,7 +75,7 @@ We&#39;ve recently added quite a few long-demanded features to the Tridactyl bet
       
       <guid>https://tridactyl.xyz/newsletters/01-autumn-2019/</guid>
       <description>Hi!
-It&#39;s been an eventful few months for Tridactyl. We were delisted from the AMO and have been slowly trying to get listed again. We&#39;re currently waiting to hear back from a reviewer on a query of ours before we submit what we will hope be our final revision which will be accepted. To have a hope of being relisted we have had to do some stuff we didn&#39;t want to do, namely editing user.</description>
+It&amp;rsquo;s been an eventful few months for Tridactyl. We were delisted from the AMO and have been slowly trying to get listed again. We&amp;rsquo;re currently waiting to hear back from a reviewer on a query of ours before we submit what we will hope be our final revision which will be accepted. To have a hope of being relisted we have had to do some stuff we didn&amp;rsquo;t want to do, namely editing user.</description>
     </item>
     
   </channel>
