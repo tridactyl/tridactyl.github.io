@@ -9,9 +9,10 @@
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer">
+
 <meta name="description" content="Tridactyl - a vim-like Firefox WebExtension">
 <title>
-Google Summer of Code 2020 ideas page - Tridactyl - a vim-like Firefox WebExtension
+    Google Summer of Code 2020 ideas page - Tridactyl - a vim-like Firefox WebExtension
 </title>
 
 
@@ -22,13 +23,17 @@ Google Summer of Code 2020 ideas page - Tridactyl - a vim-like Firefox WebExtens
 
 
 
+<link rel="stylesheet" href="/css/main.min.c5514d3530979d291f3497facc20da1cec870028dbc2a3630b64bab8721bbe49.css" integrity="sha256-xVFNNTCXnSkfNJf6zCDaHOyHACjbwqNjC2S6uHIbvkk=" crossorigin="anonymous" media="screen">
 
 
-<link rel="stylesheet" href="/css/main.min.8838e9b23ac21efd16a4bff8ff077840765452fb485b7a4141652c7d2bc7799b.css" integrity="sha256-iDjpsjrCHv0WpL/4/wd4QHZUUvtIW3pBQWUsfSvHeZs=" crossorigin="anonymous" media="screen">
+
+
+  
 
 
 
- 
+
+
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic">
 
@@ -59,10 +64,15 @@ Tridactyl is a big project with lots of interesting areas where students could m
 </head>
 
 <body>
-    <div class="wrap">
-        <div class="section" id="title">Google Summer of Code 2020 ideas page</div>
-
-        <div class="section" id="content">
+    
+    
+    <header class="wrap flex-container">
+        <h1>Google Summer of Code 2020 ideas page</h1>
+    </header>
+    
+    <main class="wrap">
+        
+        <article role="article" class="flex-container">
             
                 
                 <h2> Table of contents </h2>
@@ -118,9 +128,11 @@ Tridactyl is a big project with lots of interesting areas where students could m
 <p>Some experience with <code>git</code> and <code>Git{Hub,Lab}</code></p>
 </li>
 </ul>
-<h2 id="challenging">Challenging</h2>
+
+<h2 id="challenging" class="anchor-link"><a href="#challenging">Challenging<span class="pilcrow">&nbsp;¶</span></a></h2>
 <p>The following few projects would be quite challenging (and proportionately rewarding).</p>
-<h3 id="port-tridactyl-to-other-browsers">Port Tridactyl to other browsers</h3>
+
+<h3 id="port-tridactyl-to-other-browsers" class="anchor-link"><a href="#port-tridactyl-to-other-browsers">Port Tridactyl to other browsers<span class="pilcrow">&nbsp;¶</span></a></h3>
 <p>Google Chrome has many more users than Firefox. We could get Tridactyl into the hands of many more people if we ported it to Chrome. Many browsers use the same (or similar) WebExtension API as Firefox and can be supported using <a href="https://github.com/mozilla/webextension-polyfill">webextension-polyfill</a>.</p>
 <p>The challenges would be:</p>
 <ul>
@@ -155,7 +167,8 @@ Tridactyl is a big project with lots of interesting areas where students could m
 </ul>
 <p>We briefly explored this in the past - this <a href="https://github.com/tridactyl/tridactyl/pull/1683">pull request</a> could be a good place for interested students to start.</p>
 <p>Potential mentors: glacambre, saulrh, bovine3dom</p>
-<h3 id="write-a-keyboard-api-for-firefox">Write a &ldquo;Keyboard API&rdquo; for Firefox</h3>
+
+<h3 id="write-a-keyboard-api-for-firefox" class="anchor-link"><a href="#write-a-keyboard-api-for-firefox">Write a &ldquo;Keyboard API&rdquo; for Firefox<span class="pilcrow">&nbsp;¶</span></a></h3>
 <p>Tridactyl is a keyboard-driven interface for Firefox. The most common complaint amongst our users is that Tridactyl cannot accept commands while web pages are loading, while the Firefox UI is focused, or while a &ldquo;privileged&rdquo; page such as &ldquo;about:preferences&rdquo; is being used.</p>
 <p>A simple extension to the WebExtension API would allow Tridactyl to listen for key-events in these scenarios. <a href="https://github.com/tridactyl/keyboard-api">Work was started</a> on such an API a few years ago. Mozilla, in principle, accepted that such an API could be merged into Firefox. Enough time has passed, however, that consensus will have to be rebuilt with Mozilla about both the detail and the broad structure of the API. In the event that agreement cannot be reached with Mozilla regarding the new API, it could still be used with Tridactyl in Developer, Nightly and custom builds of Firefox.</p>
 <p>Such an API would be useful for all extensions like Tridactyl.</p>
@@ -196,7 +209,8 @@ Tridactyl is a big project with lots of interesting areas where students could m
 </li>
 </ul>
 <p>Potential mentors: saulrh, glacambre, cmcaine, bovine3dom</p>
-<h3 id="integrate-a-new-parser-into-tridactyl">Integrate a new parser into Tridactyl</h3>
+
+<h3 id="integrate-a-new-parser-into-tridactyl" class="anchor-link"><a href="#integrate-a-new-parser-into-tridactyl">Integrate a new parser into Tridactyl<span class="pilcrow">&nbsp;¶</span></a></h3>
 <p>Tridactyl has its own rudimentary vim-style scripting language. The current design was not designed; it emerged as new features were added. It is therefore <em>bad</em>.</p>
 <p>ELLIOTTCABLE has been working on <a href="https://github.com/ELLIOTTCABLE/excmd.js">a real parser</a> on and off for about 18 months. It is now nearly ready to be integrated into Tridactyl. Your task would be to integrate it with his help and fix any issues that emerged.</p>
 <p>Challenges:</p>
@@ -224,8 +238,10 @@ Tridactyl is a big project with lots of interesting areas where students could m
 <p>Some knowledge of parsers</p>
 </li>
 </ul>
-<h2 id="minor">Minor</h2>
-<h3 id="use-treestyletabs-api">Use TreeStyleTab&rsquo;s API</h3>
+
+<h2 id="minor" class="anchor-link"><a href="#minor">Minor<span class="pilcrow">&nbsp;¶</span></a></h2>
+
+<h3 id="use-treestyletabs-api" class="anchor-link"><a href="#use-treestyletabs-api">Use TreeStyleTab&rsquo;s API<span class="pilcrow">&nbsp;¶</span></a></h3>
 <p>Another highly requested feature is to interoperate with TreeStyleTab. This would be a shorter task than the others. <a href="https://github.com/tridactyl/tridactyl/pull/1646">There is already a PR</a> that goes some of the way to providing this. The main remaining work is to determine which sorts of features users would like and improve error handling.</p>
 <p>Rewards:</p>
 <ul>
@@ -236,7 +252,8 @@ Tridactyl is a big project with lots of interesting areas where students could m
 <li>Some experience with using TreeStyleTabs or a similar extension</li>
 </ul>
 <p>Potential mentors: saulrh, bovine3dom</p>
-<h3 id="lazy-iframe-injection">Lazy iframe injection</h3>
+
+<h3 id="lazy-iframe-injection" class="anchor-link"><a href="#lazy-iframe-injection">Lazy iframe injection<span class="pilcrow">&nbsp;¶</span></a></h3>
 <p>The way we inject our iframe which contains our command line and most of our interface currently <a href="https://github.com/tridactyl/tridactyl/issues/639">breaks quite a few websites</a>. We should instead insert it only when it is required. We attempted this <a href="https://github.com/tridactyl/tridactyl/pull/1331">about a year ago</a> but ran into an issue where the command had to be executed twice to work.</p>
 <p>Challenges:</p>
 <ul>
@@ -266,8 +283,10 @@ Tridactyl is a big project with lots of interesting areas where students could m
 </li>
 </ul>
 <p>Potential mentors: bovine3dom, glacambre, saulrh</p>
-<h2 id="just-for-fun">Just for fun</h2>
-<h3 id="gamepadactyl">Gamepadactyl</h3>
+
+<h2 id="just-for-fun" class="anchor-link"><a href="#just-for-fun">Just for fun<span class="pilcrow">&nbsp;¶</span></a></h2>
+
+<h3 id="gamepadactyl" class="anchor-link"><a href="#gamepadactyl">Gamepadactyl<span class="pilcrow">&nbsp;¶</span></a></h3>
 <p>We have <a href="https://github.com/tridactyl/tridactyl/pull/1814">an open pull request</a> that adds limited gamepad support to Tridactyl. After getting detection, hinting and text input to work well (for example, see Steam&rsquo;s Xbox 360 flower keyboard) with a decent theme it could turn Tridactyl into a good way of browsing the net on a big screen.</p>
 <p>Challenges:</p>
 <ul>
@@ -287,9 +306,11 @@ Tridactyl is a big project with lots of interesting areas where students could m
 </li>
 </ul>
 <p>Potential mentors: bovine3dom, glacambre</p>
-<h2 id="moonshots">Moonshots</h2>
+
+<h2 id="moonshots" class="anchor-link"><a href="#moonshots">Moonshots<span class="pilcrow">&nbsp;¶</span></a></h2>
 <p>The following project has a slim chance of success.</p>
-<h3 id="port-geckoview-to-x86_64">Port GeckoView to x86_64</h3>
+
+<h3 id="port-geckoview-to-x86_64" class="anchor-link"><a href="#port-geckoview-to-x86_64">Port GeckoView to x86_64<span class="pilcrow">&nbsp;¶</span></a></h3>
 <p>GeckoView is Mozilla&rsquo;s answer to Chrome&rsquo;s WebView - it is a lightweight web browser that is intended to be embedded in Android applications. Given enough willpower, it could be ported to desktop computers with bindings written in a popular language (e.g. Python, or, as the maintainers would like, Julia). It could then serve as an alternative to Electron and Tridactyl could be ported to it. GeckoView itself already supports a subset of the WebExtension API so it could be somewhat straightforward.</p>
 <p>GeckoView itself is under active development and so is something of a moving target.</p>
 <p>The mentors are somewhat reluctant to mentor this project; a student would need to be very persuasive to be accepted.</p>
@@ -319,13 +340,17 @@ Tridactyl is a big project with lots of interesting areas where students could m
 </li>
 </ul>
 <p>Potential mentors: saulrh, bovine3dom, cmcaine</p>
-<h2 id="your-own-idea">Your own idea!</h2>
+
+<h2 id="your-own-idea" class="anchor-link"><a href="#your-own-idea">Your own idea!<span class="pilcrow">&nbsp;¶</span></a></h2>
 <p>We&rsquo;d be delighted to hear from students who have an idea completely of their own. Be sure to <a href="/chat/">contact us first</a> to get a feel for how achievable we think your idea is. You might also wish to look at the <a href="https://github.com/tridactyl/tridactyl/issues/2107">GitHub issue where we came up with the ideas that made this page</a> or any of our <a href="https://github.com/tridactyl/tridactyl/issues/">GitHub issues</a>.</p>
 
-        </div>
+        </article>
+        
 
         
-        <div class="section bottom-menu">
+        
+        <nav role="navigation" class="flex-container bottom-menu">
+            
 <hr />
 <p>
 
@@ -353,15 +378,20 @@ Tridactyl is a big project with lots of interesting areas where students could m
         
     
     &#183; 
-    <a href="https://tridactyl.xyz/">
+    <a href="/">
         home
     </a>
 
-</p></div>
+</p>
+        </nav>
         
-
-        <div class="section footer">Tridactyl - this site is licensed under BSD-3 - source available at <a href="https://github.com/tridactyl/site">GitHub</a></div>
-    </div>
+        
+    </main>
+    
+    <footer class="flex-container footer">Tridactyl - this site is licensed under BSD-3 - source available at <a href="https://github.com/tridactyl/site">GitHub</a>
+</footer>
+    
+    
 </body>
 
 </html>

@@ -9,9 +9,10 @@
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer">
+
 <meta name="description" content="Tridactyl - a vim-like Firefox WebExtension">
 <title>
-Winter 2020 - Tridactyl - a vim-like Firefox WebExtension
+    Winter 2020 - Tridactyl - a vim-like Firefox WebExtension
 </title>
 
 
@@ -22,13 +23,17 @@ Winter 2020 - Tridactyl - a vim-like Firefox WebExtension
 
 
 
+<link rel="stylesheet" href="/css/main.min.c5514d3530979d291f3497facc20da1cec870028dbc2a3630b64bab8721bbe49.css" integrity="sha256-xVFNNTCXnSkfNJf6zCDaHOyHACjbwqNjC2S6uHIbvkk=" crossorigin="anonymous" media="screen">
 
 
-<link rel="stylesheet" href="/css/main.min.8838e9b23ac21efd16a4bff8ff077840765452fb485b7a4141652c7d2bc7799b.css" integrity="sha256-iDjpsjrCHv0WpL/4/wd4QHZUUvtIW3pBQWUsfSvHeZs=" crossorigin="anonymous" media="screen">
+
+
+  
 
 
 
- 
+
+
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic">
 
@@ -63,10 +68,15 @@ We&rsquo;ve recently added quite a few long-demanded features to the Tridactyl b
 </head>
 
 <body>
-    <div class="wrap">
-        <div class="section" id="title">Winter 2020</div>
-
-        <div class="section" id="content">
+    
+    
+    <header class="wrap flex-container">
+        <h1>Winter 2020</h1>
+    </header>
+    
+    <main class="wrap">
+        
+        <article role="article" class="flex-container">
             
                 
                 <h2> Table of contents </h2>
@@ -77,7 +87,7 @@ We&rsquo;ve recently added quite a few long-demanded features to the Tridactyl b
 <p>Welcome to the second quarterly Tridactyl newsletter.</p>
 <p>Since the last newsletter, we resolved our dispute with the Mozilla add-on reviewers and have been relisted on the AMO. If you like graphs, you can clearly see our time in the wilderness where the AMO did not collect statistics for us here: <a href="https://addons.mozilla.org/en-US/firefox/addon/tridactyl-vim/statistics/?last=365">https://addons.mozilla.org/en-US/firefox/addon/tridactyl-vim/statistics/?last=365</a></p>
 <p>We&rsquo;ve recently added quite a few long-demanded features to the Tridactyl beta, which we&rsquo;ll enumerate in the following paragraphs. The features will be included in Tridactyl stable 1.18.0 which will be released &ldquo;soon&rdquo;.</p>
-<p>There is now a basic &ldquo;visual&rdquo; mode which is by default entered whenever non-text-area text is selected and left whenever it is deselected (&quot;:set visual{enter,exit}auto {true,false}&rdquo; to modify this behaviour). Basic movement keys are supported in addition to &ldquo;s&rdquo; to search for the highlighted string and &ldquo;y&rdquo; to yank it to the clipboard. See &ldquo;:help vmaps&rdquo; to see all the binds. To make it easier to enter this mode, &ldquo;v&rdquo; and &ldquo;;h&rdquo; enter a &ldquo;highlight element&rdquo; hint mode.</p>
+<p>There is now a basic &ldquo;visual&rdquo; mode which is by default entered whenever non-text-area text is selected and left whenever it is deselected (&quot;:set visual{enter,exit}auto {true,false}&quot; to modify this behaviour). Basic movement keys are supported in addition to &ldquo;s&rdquo; to search for the highlighted string and &ldquo;y&rdquo; to yank it to the clipboard. See &ldquo;:help vmaps&rdquo; to see all the binds. To make it easier to enter this mode, &ldquo;v&rdquo; and &ldquo;;h&rdquo; enter a &ldquo;highlight element&rdquo; hint mode.</p>
 <p>We have also added an &ldquo;:apropos&rdquo; command which searches through all help pages and finds relevant commands and settings. We&rsquo;ve already found commands and settings that we had forgotten about. Unfortunately, this doesn&rsquo;t work on all machines for reasons which are unclear.</p>
 <p>Another long-awaited feature is that our RC files can now contain escaped newlines with backslashes thanks to saulrh. This makes writing long :js snippets much more palatable. We can&rsquo;t wait to see what you all do with it.</p>
 <p>Our final note on changes to Tridactyl is that our smooth scrolling is now actually quite good thanks to Spindlyskit (a first-time contributor). If you had avoided using it before because you didn&rsquo;t like our implementation, you might want to try it out again with &ldquo;:set smoothscroll true&rdquo;.</p>
@@ -87,10 +97,13 @@ We&rsquo;ve recently added quite a few long-demanded features to the Tridactyl b
 <p>Thanks as ever for your support,</p>
 <p>(Dr!) bovine3dom and the rest of the Tridactyl developers</p>
 
-        </div>
+        </article>
+        
 
         
-        <div class="section bottom-menu">
+        
+        <nav role="navigation" class="flex-container bottom-menu">
+            
 <hr />
 <p>
 
@@ -118,15 +131,20 @@ We&rsquo;ve recently added quite a few long-demanded features to the Tridactyl b
         
     
     &#183; 
-    <a href="https://tridactyl.xyz/">
+    <a href="/">
         home
     </a>
 
-</p></div>
+</p>
+        </nav>
         
-
-        <div class="section footer">Tridactyl - this site is licensed under BSD-3 - source available at <a href="https://github.com/tridactyl/site">GitHub</a></div>
-    </div>
+        
+    </main>
+    
+    <footer class="flex-container footer">Tridactyl - this site is licensed under BSD-3 - source available at <a href="https://github.com/tridactyl/site">GitHub</a>
+</footer>
+    
+    
 </body>
 
 </html>

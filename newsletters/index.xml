@@ -6,10 +6,31 @@
     <description>Recent content in Newsletters on Tridactyl - a vim-like Firefox WebExtension</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 16 Jan 2020 11:24:21 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2020 17:40:46 +0100</lastBuildDate><atom:link href="https://tridactyl.xyz/newsletters/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Autumn 2020</title>
+      <link>https://tridactyl.xyz/newsletters/05-autumn-2020/</link>
+      <pubDate>Tue, 20 Oct 2020 17:40:46 +0100</pubDate>
+      
+      <guid>https://tridactyl.xyz/newsletters/05-autumn-2020/</guid>
+      <description>Hello,
+Welcome to the fifth quarterly Tridactyl newsletter.
+We&amp;rsquo;ve had another productive quarter. It hasn&amp;rsquo;t been quite as transformative as the last quarter - the addition of browser-wide &amp;lt;C-,&amp;gt; and &amp;lt;C-6&amp;gt; was hard to beat (I&amp;rsquo;ve personally switched to using &amp;lt;C-,&amp;gt; instead of &amp;lt;Esc&amp;gt; and generally Tridactyl and I get along a lot better :)) - but we have added quite a few nice little things.
+Highlighted new features&amp;nbsp;¶ For everyone&amp;nbsp;¶ A few new features relating to completions have been added: &amp;lt;C-o&amp;gt;yy copies the currently selected completion to the clipboard, &amp;lt;S-Delete&amp;gt; executes :tabclose on a selected completion&amp;rsquo;s arguments and &amp;lt;C-Enter&amp;gt; executes the highlighted completion keeping the command line open - particularly useful for, e.</description>
+    </item>
     
-	<atom:link href="https://tridactyl.xyz/newsletters/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>Summer 2020</title>
+      <link>https://tridactyl.xyz/newsletters/04-summer-2020/</link>
+      <pubDate>Sun, 19 Jul 2020 13:51:54 +0100</pubDate>
+      
+      <guid>https://tridactyl.xyz/newsletters/04-summer-2020/</guid>
+      <description>Hello,
+Welcome to the fourth quarterly Tridactyl newsletter.
+We&amp;rsquo;ve got a lot done in the past few months, including some features which people have been asking for for a long time. My personal highlights are:
+  &amp;ldquo;passthrough&amp;rdquo; mode, bound to &amp;lt;C-v&amp;gt; in normal mode and &amp;lt;C-o&amp;gt; in ignore mode sends the next keypress or valid keysequence to ignore or normal mode respectively.
+  focus-element hint mode, bound to ;;, can now be used to choose which part of the page to scroll - just focus an element contained within that part of the page.</description>
+    </item>
     
     <item>
       <title>Winter 2020</title>
@@ -31,6 +52,17 @@ We&amp;rsquo;ve recently added quite a few long-demanded features to the Tridact
       <guid>https://tridactyl.xyz/newsletters/01-autumn-2019/</guid>
       <description>Hi!
 It&amp;rsquo;s been an eventful few months for Tridactyl. We were delisted from the AMO and have been slowly trying to get listed again. We&amp;rsquo;re currently waiting to hear back from a reviewer on a query of ours before we submit what we will hope be our final revision which will be accepted. To have a hope of being relisted we have had to do some stuff we didn&amp;rsquo;t want to do, namely editing user.</description>
+    </item>
+    
+    <item>
+      <title>Spring 2020</title>
+      <link>https://tridactyl.xyz/newsletters/03-spring-2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tridactyl.xyz/newsletters/03-spring-2020/</guid>
+      <description>Hello,
+Welcome to the third quarterly Tridactyl newsletter.
+It has been an eventful quarter. We received our first payout from GitHub sponsors (it was real, they really did double your donations!). Visual mode has landed in Tridactyl stable. We weren&amp;rsquo;t accepted on to Google Summer of Code. I finally got round to adding a setnull command which lets you remove default settings, e.g. setnull searchurls.google allows you to open google and search for &amp;ldquo;google&amp;rdquo; with your default search engine.</description>
     </item>
     
   </channel>
