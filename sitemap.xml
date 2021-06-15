@@ -1,72 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://tridactyl.xyz/newsletters/</loc>
     <lastmod>2021-01-21T19:26:01+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tridactyl.xyz/</loc>
     <lastmod>2021-01-21T19:26:01+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tridactyl.xyz/newsletters/06-winter-2021/</loc>
     <lastmod>2021-01-21T19:26:01+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tridactyl.xyz/newsletters/05-autumn-2020/</loc>
     <lastmod>2020-10-20T17:40:46+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tridactyl.xyz/newsletters/04-summer-2020/</loc>
     <lastmod>2020-07-19T13:51:54+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tridactyl.xyz/ideas/</loc>
     <lastmod>2020-01-30T14:56:08+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tridactyl.xyz/about/</loc>
     <lastmod>2020-01-27T16:04:01+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tridactyl.xyz/testimonials/</loc>
     <lastmod>2020-01-27T15:35:45+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tridactyl.xyz/chat/</loc>
     <lastmod>2020-01-27T15:26:17+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tridactyl.xyz/newsletters/02-winter-2020/</loc>
     <lastmod>2020-01-16T11:24:21+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tridactyl.xyz/newsletters/01-autumn-2019/</loc>
     <lastmod>2019-10-17T11:32:27+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tridactyl.xyz/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tridactyl.xyz/newsletters/03-spring-2020/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tridactyl.xyz/tags/</loc>
   </url>
-  
 </urlset>
