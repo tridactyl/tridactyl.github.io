@@ -6,7 +6,18 @@
     <description>Recent content on Tridactyl - a vim-like Firefox WebExtension</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 21 Jan 2021 19:26:01 +0100</lastBuildDate><atom:link href="https://tridactyl.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 May 2021 13:46:06 +0200</lastBuildDate><atom:link href="https://tridactyl.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring 2021</title>
+      <link>https://tridactyl.xyz/newsletters/07-spring-2021/</link>
+      <pubDate>Thu, 13 May 2021 13:46:06 +0200</pubDate>
+      
+      <guid>https://tridactyl.xyz/newsletters/07-spring-2021/</guid>
+      <description>Hello,
+Welcome to the seventh quarterly Tridactyl newsletter. Somehow I missed the quarter and it&amp;rsquo;s now summer &amp;hellip; sorry! We added a few neat features this quarter - I find myself using :tabaudio a lot - but most of the work went on changes to our build system which have made working on Tridactyl vastly more pleasurable.
+Highlighted new features&amp;nbsp;¶ We have a couple of new features for tab/window management. The first relates to tabs playing audio: :tabaudio, bound to ga by default takes you to the tab currently playing audio in your current window; and a little speaker is shown next to tabs playing audio on :tab completions.</description>
+    </item>
+    
     <item>
       <title>Winter 2021</title>
       <link>https://tridactyl.xyz/newsletters/06-winter-2021/</link>
@@ -107,6 +118,17 @@ We&amp;rsquo;ve recently added quite a few long-demanded features to the Tridact
       <guid>https://tridactyl.xyz/newsletters/01-autumn-2019/</guid>
       <description>Hi!
 It&amp;rsquo;s been an eventful few months for Tridactyl. We were delisted from the AMO and have been slowly trying to get listed again. We&amp;rsquo;re currently waiting to hear back from a reviewer on a query of ours before we submit what we will hope be our final revision which will be accepted. To have a hope of being relisted we have had to do some stuff we didn&amp;rsquo;t want to do, namely editing user.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://tridactyl.xyz/newsletters/tips-and-tricks/1-hint-css-selectors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tridactyl.xyz/newsletters/tips-and-tricks/1-hint-css-selectors/</guid>
+      <description>Tridactyl Tips &amp;amp; Tricks 1: Hint mode CSS selectors&amp;nbsp;¶ Hi!
+Welcome to the first Tridactyl Tips &amp;amp; Tricks newsletter, as mentioned in the previous Tridactyl newsletter. This newsletter is very experimental so any feedback you have would be appreciated.
+This first edition is going out to all sponsors on GitHub and Patreon. Later editions will only go out to sponsors on tiers 10 USD a month and higher; I&amp;rsquo;m trying to raise a bit more revenue since GitHub will no longer double donations.</description>
     </item>
     
     <item>
