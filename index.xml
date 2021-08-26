@@ -6,7 +6,18 @@
     <description>Recent content on Tridactyl - a vim-like Firefox WebExtension</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 13 May 2021 13:46:06 +0200</lastBuildDate><atom:link href="https://tridactyl.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Aug 2021 13:14:59 +0200</lastBuildDate><atom:link href="https://tridactyl.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Summer 2021</title>
+      <link>https://tridactyl.xyz/newsletters/08-summer-2021/</link>
+      <pubDate>Thu, 26 Aug 2021 13:14:59 +0200</pubDate>
+      
+      <guid>https://tridactyl.xyz/newsletters/08-summer-2021/</guid>
+      <description>Hello,
+Welcome to the eighth quarterly Tridactyl newsletter. This one&amp;rsquo;s a bit shorter than usual as I had some consulting work and there&amp;rsquo;s been less time since the previous newsletter. I&amp;rsquo;m trying to catch up and release the newsletters in the (northern hemisphere) seasons that they&amp;rsquo;re named after.
+Highlighted new features&amp;nbsp;¶ The big new feature this time is one that people have been asking for for a long time: Tridactyl now has a superignore setting that almost entirely disables Tridactyl after a page reload.</description>
+    </item>
+    
     <item>
       <title>Spring 2021</title>
       <link>https://tridactyl.xyz/newsletters/07-spring-2021/</link>

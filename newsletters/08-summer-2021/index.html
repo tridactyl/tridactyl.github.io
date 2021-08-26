@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+
+<meta name="description" content="Tridactyl - a vim-like Firefox WebExtension">
+<title>
+    Summer 2021 - Tridactyl - a vim-like Firefox WebExtension
+</title>
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/main.min.8022aa4b53ce57ff6f9cc4594360bfc15f2baeb5a018d0c68826f12da49a51e0.css" integrity="sha256-gCKqS1POV/9vnMRZQ2C/wV8rrrWgGNDGiCbxLaSaUeA=" crossorigin="anonymous" media="screen">
+
+
+
+
+  
+
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Summer 2021"/>
+<meta name="twitter:description" content="Hello,
+Welcome to the eighth quarterly Tridactyl newsletter. This one&rsquo;s a bit shorter than usual as I had some consulting work and there&rsquo;s been less time since the previous newsletter. I&rsquo;m trying to catch up and release the newsletters in the (northern hemisphere) seasons that they&rsquo;re named after.
+Highlighted new features&nbsp;¶ The big new feature this time is one that people have been asking for for a long time: Tridactyl now has a superignore setting that almost entirely disables Tridactyl after a page reload."/>
+
+<meta property="og:title" content="Summer 2021" />
+<meta property="og:description" content="Hello,
+Welcome to the eighth quarterly Tridactyl newsletter. This one&rsquo;s a bit shorter than usual as I had some consulting work and there&rsquo;s been less time since the previous newsletter. I&rsquo;m trying to catch up and release the newsletters in the (northern hemisphere) seasons that they&rsquo;re named after.
+Highlighted new features&nbsp;¶ The big new feature this time is one that people have been asking for for a long time: Tridactyl now has a superignore setting that almost entirely disables Tridactyl after a page reload." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://tridactyl.xyz/newsletters/08-summer-2021/" /><meta property="article:section" content="newsletters" />
+<meta property="article:published_time" content="2021-08-26T13:14:59&#43;02:00" />
+<meta property="article:modified_time" content="2021-08-26T13:14:59&#43;02:00" /><meta property="og:site_name" content="Tridactyl - a vim-like Firefox WebExtension" />
+
+
+
+    
+
+    
+    
+    
+    <title>
+        
+        Summer 2021
+        
+    </title>
+</head>
+
+<body>
+    
+    
+    <header class="wrap flex-container">
+        <h1>Summer 2021</h1>
+    </header>
+    
+    <main class="wrap">
+        
+        <article role="article" class="flex-container">
+            
+            <p>Hello,</p>
+<p>Welcome to the eighth quarterly Tridactyl newsletter. This one&rsquo;s a bit shorter than usual as I had some consulting work and there&rsquo;s been less time since the previous newsletter. I&rsquo;m trying to catch up and release the newsletters in the (northern hemisphere) seasons that they&rsquo;re named after.</p>
+
+<h2 id="highlighted-new-features" class="anchor-link"><a href="#highlighted-new-features">Highlighted new features<span class="pilcrow">&nbsp;¶</span></a></h2>
+<p>The big new feature this time is one that people have been asking for for a long time: Tridactyl now has a <code>superignore</code> setting that almost entirely disables Tridactyl after a page reload. It should be useful to web developers who want to make sure that Tridactyl is polluting their pages as little as possible while they are developing them.</p>
+<p>You should only use it with <code>:seturl</code> for now - if you use it with <code>:set</code> it will be difficult to re-enable Tridactyl; the easiest thing to do then would be to use the <code>tri</code> keyword in the Firefox address bar to remove the setting with <code>:tri unset superignore</code>.</p>
+<p>And that&rsquo;s it, really - there&rsquo;re a few other very minor new things (a <code>:tabrename</code> command, a new <code>midnight</code> theme, and <code>:no_mouse_mode</code> now hides the mouse, for example).</p>
+
+<h2 id="neat-bug-fixes-and-stuff-only-tridactyl-developers-care-about" class="anchor-link"><a href="#neat-bug-fixes-and-stuff-only-tridactyl-developers-care-about">Neat bug fixes and stuff only Tridactyl developers care about<span class="pilcrow">&nbsp;¶</span></a></h2>
+<p><code>:editor</code> should now work with lots more web-based text editors as we&rsquo;re now using Firenvim&rsquo;s code, which glacambre kindly extracted out into a library here: <a href="https://github.com/glacambre/editor-adapter">https://github.com/glacambre/editor-adapter</a>. We&rsquo;ll now share bug fixes and be able to collaborate on supporting new editors, which is pretty exciting to me.</p>
+<p>We also had a tiny fix for a bug that&rsquo;s been getting on my nerves for a while: SVG favicons on <code>:tab</code> completions. This means you&rsquo;ll correctly see, amongst others, the GitHub favicon in that list.</p>
+
+<h2 id="plans-for-next-few-months" class="anchor-link"><a href="#plans-for-next-few-months">Plans for next few months<span class="pilcrow">&nbsp;¶</span></a></h2>
+<p>I might actually rewrite completions this quarter! I&rsquo;ve been threatening to do it for years but a few days ago I got fed up enough with the code that I started sketching out a replacement here: <a href="https://github.com/tridactyl/tridactyl/issues/3896">https://github.com/tridactyl/tridactyl/issues/3896</a>. If you have any thoughts on what you&rsquo;d like our completions / command line to be like, please do share them in that issue. My main aims are to reduce code duplication, improve responsiveness and allow users to write their own completions at runtime.</p>
+<p>As always, thanks for your generous support,</p>
+<p>bovine3dom and the rest of the Tridactyl developers</p>
+
+        </article>
+        
+
+        
+        
+        <nav role="navigation" class="flex-container bottom-menu">
+            
+<hr />
+<p>
+
+
+    
+
+    
+        
+            <a href="/about">what is tridactyl?</a>
+        
+    
+    
+        
+            &#183; 
+            <a href="/testimonials">testimonials</a>
+        
+            &#183; 
+            <a href="/chat">talk to us</a>
+        
+            &#183; 
+            <a href="/newsletters">newsletters</a>
+        
+            &#183; 
+            <a href="/ideas">google summer of code ideas page</a>
+        
+    
+    &#183; 
+    <a href="/">
+        home
+    </a>
+
+</p>
+        </nav>
+        
+        
+    </main>
+    
+    <footer class="flex-container footer">Tridactyl - this site is licensed under BSD-3 - source available at <a href="https://github.com/tridactyl/site">GitHub</a>
+</footer>
+    
+    
+</body>
+
+</html>
